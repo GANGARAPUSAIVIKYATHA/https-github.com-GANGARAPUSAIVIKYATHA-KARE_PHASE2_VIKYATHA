@@ -48,3 +48,28 @@ o/p:
     *   *
   *     *
 * * * * *
+
+import java.util.*;
+public class Main{
+    public static void main(String[]args){
+        Scanner sc= new Scanner(System.in);
+        int n= sc.nextInt();
+        
+        int i,j,c=4;
+        for(i=0;i<=4;i++,System.out.println()){
+            for(j=0;j<=4;j++){
+                if(i==4||j==4||c==i+j ||i==j||i==0||j==0)
+                System.out.print("*");
+                else
+                System.out.print(" ");
+            }
+        }
+    }
+    
+}
+o/p:
+* * * * *
+* *   * * 
+*   *   *
+*  *  * *
+* * * * *
