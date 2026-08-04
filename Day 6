@@ -136,3 +136,31 @@ public class Main
 o/p:
 2   10
 2  3   5   7 
+
+
+
+// a no which has only 2 factors is consider as prime number.
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+	    Scanner sc= new Scanner(System.in);
+	    int n = sc.nextInt();
+	    int  flag=0,i,c=0;
+	    if(n==1){
+	        System.out.println("neither prime or composite");
+	        
+	    }
+	    for(i=2;i<=n/2;i++){
+	        if(n%i==0){
+	            flag=1;}
+	    }
+	        if(flag==0)
+	        System.out.print("Prime number");
+	        else
+	        System.out.print("not prime");
+	 }
+}
+o/p:
+2
+prime number.
