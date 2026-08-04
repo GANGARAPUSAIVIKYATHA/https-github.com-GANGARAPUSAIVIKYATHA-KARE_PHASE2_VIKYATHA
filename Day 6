@@ -111,7 +111,7 @@ o/p:
 amicable
 
 
-
+// find the range btw the given number which is prime number:
 import java.util.*;
 public class Main
 {
