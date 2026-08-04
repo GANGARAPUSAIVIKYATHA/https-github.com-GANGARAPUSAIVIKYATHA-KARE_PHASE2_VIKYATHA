@@ -22,3 +22,36 @@ public class Main
 o/p:
 153
 amstrong.
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+	    Scanner sc= new Scanner(System.in);
+	    int n = sc.nextInt();
+	    int sq,ans=0,d,temp=n,rev=0,srn;
+	    sq= n*n;
+	    while(n!=0){
+	        d=n%10;
+	        rev=rev*10+d;
+	        n=n/10;
+	        
+	    }
+	    srn = rev * rev;
+	    while (srn!=0){
+	        d=srn%10;
+	        ans=ans*10+d;
+	        srn=srn/10;
+	        
+	    }
+	    
+	    if(sq==ans){
+	        System.out.println("adam number");
+	    }else{
+	        System.out.println("not a adam number");
+	        
+	    }   
+	}
+}
+0/p:
+12
+adam number
