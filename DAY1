@@ -39,7 +39,7 @@ public class Main{
 }
 
 
-print a value?
+5.print a value?
 import java.util.*;
 
 public class Main{
@@ -49,4 +49,69 @@ public class Main{
         System.out.print(a);
         
     }
+}
+6
+class Main{
+    public static void main(String[] args){
+        System.out.print("cse \"KARE\" students");
+    }
+}
+
+
+
+7
+//i/p.              o/p
+//20.               20
+//10.               10
+import java.util.*;
+class Main{
+    public static void main(String[] args){
+        Scanner sc = new Scanner(System.in);
+        int a = sc.nextInt();
+        System.out.print(a);
+    }
+}
+
+8,
+package CSE;
+import java.util.*;
+public class MAIN {
+	public static void main(String[] args) {
+		Scanner obj = new Scanner(System.in);
+		float f=obj.nextFloat();
+		System.out.println(f);
+	}
+}
+
+9.
+package CSE;
+import java.util.*;
+public class MAIN {
+	public static void main(String[] args) {
+		Scanner obj = new Scanner(System.in);
+		char ch = obj.next().charAt(0);
+		System.out.println("The character is :"+ ch);
+	}
+}
+
+10.
+package CSE;
+import java.util.*;
+public class MAIN {
+	public static void main(String[] args) {
+		Scanner obj = new Scanner(System.in);
+		float f=obj.nextFloat();
+		System.out.printf("%.2f",f);
+	}
+}
+
+11.
+package CSE;
+import java.util.*;
+public class MAIN {
+	public static void main(String[] args) {
+		Scanner obj = new Scanner(System.in);
+		double  x=obj.nextDouble();
+		System.out.println(x);
+	}
 }
